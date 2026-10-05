@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vasu Tiwari | Flute Artist</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#080b10;
+    color:white;
+    line-height:1.6;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 7%;
+    background:#080b10ee;
+    border-bottom:1px solid #252b35;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+nav a{
+    color:#ddd;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+nav a:hover{
+    color:#fff;
+}
+
+.hero{
+    min-height:88vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:50px 20px;
+    background:radial-gradient(circle at top,#1c2b3d,#080b10 60%);
+}
+
+.hero-content{
+    max-width:850px;
+}
+
+.tag{
+    display:inline-block;
+    padding:8px 16px;
+    border:1px solid #394657;
+    border-radius:30px;
+    color:#c5d0dc;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:clamp(50px,10vw,95px);
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#b8c0ca;
+    font-size:20px;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 23px;
+    margin:6px;
+    border-radius:10px;
+    border:1px solid #3c4858;
+    background:#151c25;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#293544;
+}
+
+section{
+    max-width:1150px;
+    margin:auto;
+    padding:80px 7%;
+}
+
+.section-title{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.section-subtitle{
+    color:#9da8b5;
+    margin-bottom:30px;
+}
+
+.about{
+    max-width:800px;
+    color:#c6cdd6;
+    font-size:17px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    background:#121820;
+    border:1px solid #27313d;
+    padding:30px;
+    border-radius:18px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#aeb7c2;
+}
+
+.instagram{
+    text-align:center;
+    background:#10161e;
+    border:1px solid #293340;
+    border-radius:22px;
+    padding:45px 20px;
+}
+
+.instagram h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.instagram p{
+    color:#aeb7c2;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#7f8995;
+    border-top:1px solid #252b34;
+}
+
+@media(max-width:750px){
+
+    nav .links{
+        display:none;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    section{
+        padding:60px 5%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+<div class="logo">
+VASU TIWARI
+</div>
+
+<div class="links">
+
+<a href="#home">Home</a>
+
+<a href="#about">About</a>
+
+<a href="#music">Music</a>
+
+<a href="#instagram">Instagram</a>
+
+</div>
+
+</nav>
+
+
+<!-- HOME -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="tag">
+🎵 Flute / Bansuri Artist
+</div>
+
+<h1>
+VASU TIWARI
+</h1>
+
+<p>
+Soulful flute • Bansuri vibes 🌿
+<br>
+Every note tells a story.
+</p>
+
+<div class="buttons">
+
+<a class="btn" href="#music">
+Explore My Music
+</a>
+
+<a class="btn"
+href="https://www.instagram.com/the_vasu_tunes/"
+target="_blank">
+
+Instagram
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<p class="section-subtitle">
+Music is more than sound — it's a feeling.
+</p>
+
+<p class="about">
+
+Hi, I'm <strong>Vasu Tiwari</strong>, a flute and Bansuri artist.
+
+I love creating soulful music, exploring Indian ragas and sharing
+musical moments through my performances and videos.
+
+</p>
+
+</section>
+
+
+<!-- MUSIC -->
+
+<section id="music">
+
+<h2 class="section-title">
+My Music
+</h2>
+
+<p class="section-subtitle">
+Covers • Raagas • Devotional • Flute Vibes
+</p>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+🎵 Flute Covers
+</h3>
+
+<p>
+Flute versions and covers of songs I enjoy playing.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🎶 Bansuri Vibes
+</h3>
+
+<p>
+Peaceful and soulful Bansuri melodies.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🪕 Raagas
+</h3>
+
+<p>
+Exploring the beauty of Indian classical music and Raagas.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- INSTAGRAM -->
+
+<section id="instagram">
+
+<div class="instagram">
+
+<h2>
+Follow My Journey
+</h2>
+
+<p>
+Watch my latest flute videos, covers and musical updates on Instagram.
+</p>
+
+<a class="btn"
+href="https://www.instagram.com/the_vasu_tunes/"
+target="_blank">
+
+@the_vasu_tunes
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Vasu Tiwari. All Rights Reserved.
+
+</footer>
+
+
+</body>
+</html>
